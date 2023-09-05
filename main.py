@@ -324,5 +324,6 @@ def cdf_delete(id_r, id_p):
     return redirect(url_for('cdf', id=id_p))
 
 
+
 if __name__ == '__main__':
-    main()
+    app.run(debug=True, port=3000)
